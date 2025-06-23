@@ -1,1 +1,46 @@
- 
+ # Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints (falls verwendet)
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS & Windows-Systemdateien
+.DS_Store
+Thumbs.db
+
+# Python environment files
+*.egg-info/
+.eggs/
+
+# Pip log files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.whl
+
+# SQLite DBs (optional – falls lokal gespeichert und nicht versioniert werden sollen)
+*.db
+
+# CSV-Dateien mit sensiblen oder großen Daten
+*.csv
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Log-Dateien
+*.log
